@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{bc503f3c-5a27-461f-92df-f08cd3324e46}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\GameCore">
+      <UniqueIdentifier>{06a3ce12-48f7-4e1e-b6a3-3be5f2606793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\GameCore\GameCore.cpp">
+      <Filter>Sources\GameCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\GameCore\GameCore.h">
+      <Filter>Sources\GameCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
