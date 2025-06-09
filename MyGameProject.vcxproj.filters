@@ -2,21 +2,45 @@
 <Project ToolsVersion="4.0">
   <ItemGroup>
     <Filter Include="Sources">
-      <UniqueIdentifier>{bc503f3c-5a27-461f-92df-f08cd3324e46}</UniqueIdentifier>
+      <UniqueIdentifier>{555d70a4-1814-4981-9c6b-a08b0ef32589}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Sources\GameCore">
-      <UniqueIdentifier>{06a3ce12-48f7-4e1e-b6a3-3be5f2606793}</UniqueIdentifier>
+      <UniqueIdentifier>{ed7a8063-2d8b-44ff-882b-e3a81dbcace5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\math">
+      <UniqueIdentifier>{26ef2da6-c644-451b-ad7e-8397832182d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Window">
+      <UniqueIdentifier>{c2b8a1cc-61d9-44d2-abe1-0647a27adc18}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Sources\stdafx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
     <ClCompile Include="Sources\GameCore\GameCore.cpp">
       <Filter>Sources\GameCore</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\math\math.cpp">
+      <Filter>Sources\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Window\Winow.cpp">
+      <Filter>Sources\Window</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Sources\stdafx.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
     <ClInclude Include="Sources\GameCore\GameCore.h">
       <Filter>Sources\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\math\math.h">
+      <Filter>Sources\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Window\Winow.h">
+      <Filter>Sources\Window</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
